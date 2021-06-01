@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #098cc0, #024c6e);
+}
+.icon{
+	color:#046077;
+}
+
+.resume{
+	width: 10in;
+	height: 14.15in;
+	background: #fff;
+	margin-left:auto;
+	margin-right: auto;
+	position: relative;
+	/* display: flex; */
+	-webkit-box-shadow: 0 0 50px rgb(2, 104, 129);
+        box-shadow: 50 50 50px rgb(253, 253, 253);
+}
+.image_name_contact{
+	height: 11in;
+	width:300px;
+	background-color: #ffffff;
+	position: absolute;
+	margin-top: 160px;
+	z-index: 1;
+}
+.pic{
+	height: 320px;
+	width: 240px;
+	margin-left:29px;
+	margin-right: 29px;
+	margin-top: 29px;
+	margin-bottom: 10px;
+}
+.name{
+	font-size: 30px;
+	font-weight: 700;
+	margin-left: 25px;
+	color:rgb(114, 52, 5);
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 3px;
+}
+.designation{
+	font-size: 16px;
+	margin-left: 25px;
+	color:rgb(163, 90, 33);
+	font-style: italic;
+	font-weight:bold;
+}
+.contact{
+	margin-top:60px;
+	margin-left:25px;
+}
+.left_title{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color:rgb(114, 52, 5);
+	margin-bottom: 10px;
+}
+.c_type_icon{
+	display: flex;
+	margin-bottom: 10px;
+}
+.c_icon{
+	margin-right: 20px;
+	color:rgb(114, 52, 5);
+}
+.c_type{
+	font-size: 12px;
+	color:rgb(163, 90, 33);
+}
+.c_type a{
+	text-decoration: none;
+	color:rgb(163, 90, 33);
+}
+.c_type a:hover{
+	text-decoration: underline;
+	font-size: 16px;
+}
+.hobby{
+	margin-top:30px;
+	margin-left:25px;
+}
+.language{
+	margin-top:30px;
+	margin-left:25px;
+}
+.languages{
+	margin-top:15px;
+}
+.lang_level{
+	margin-bottom: 10px;
+}
+.lang_name{
+	width: 90px;
+	height: 25px;
+	font-size: 10px;
+	color:rgb(34, 16, 2);
+	margin-left: 10px;
+	padding-top: 2px;
+}
+.lang_levelUP{
+	height: 15px;
+	width: 250px;
+	border-radius: 20px;
+	background-color: rgb(39, 17, 1);
+}
+.lang_levelDN90{
+	height: 15px;
+	width: 240px;
+	border-radius: 20px;
+	background-color: rgb(240, 171, 119);
+	text-align: center;
+	padding-left: 1px;
+}
+.lang_levelDN75{
+	height: 15px;
+	width: 210px;
+	border-radius: 20px;
+	background-color: rgb(240, 171, 119);
+	text-align: center;
+	padding-left: 1px;
+}
+.lang_levelDN50{
+	height: 15px;
+	width: 150px;
+	border-radius: 20px;
+	background-color: rgb(240, 171, 119);
+	text-align: center;
+	padding-left: 1px;
+}
+.left_right{
+	display: flex;
+	width: 10in;
+	height: 14.15in;
+	background: #fff;
+	position:absolute;
+	
+
+}
+.left{
+	background: #fffffff5;
+	width: 220px;
+	align-items: center;
+
+}
+
+
+
+.right{
+	width: 900px;
+	background-color: #f5c3c2;
+}
+
+.line_details{
+	display: flex;
+	margin-left: 135px;
+}
+.line{
+	width: 3px;
+	height: 13.5in;
+	margin-top:30px;
+	background-color: white;
+	
+}
+
+.details{
+	margin-left:15px;
+	width:630px;
+	height: 14.15in;
+
+}
+.about{
+	margin-top:30px;
+	font-size: 12px;
+	margin-right: 30px;
+	text-align: justify;
+	line-height: 18px;
+	color:rgb(39, 32, 26);
+	font-weight: 700;
+}
+
+.dot_1{
+	height: 10px;
+	width: 10px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	margin-left: -3px;
+	
+}
+.first{
+	margin-top: 90px;
+}
+.second{
+	margin-top: 218px;
+}
+.third{
+	margin-top: 220px;
+}
+.fourth{
+	margin-top: 235px;
+}
+.fifth{
+	margin-top: 190px;
+}
+.sixth{
+	margin-top: 132px;
+}
+.Education{
+	margin-top:34px;
+}
+.Experience{
+	margin-top:35px;
+}
+.project{
+	margin-top:38px;
+}
+.skill{
+	margin-top: 38px;
+}
+.referrence{
+	margin-top: 38px;
+}
+.edu_row{
+	display: flex;
+	margin-left:40px;
+}
+.edu_year{
+	margin-right: 30px;
+}
+.edu_crcl{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: white;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 10px;
+	color:rgb(83, 40, 2);
+	font-weight: bold;
+}
+.s_line{
+	width:2px;
+	background-color: white;
+	margin-left:14px;
+}
+.eduline{
+	height: 30px;
+}
+.expline{
+	height: 60px;
+}
+.pline{
+	height: 30px;
+}
+.acline{
+	height: 20px;
+}
+.edu_degree{
+	font-size: 14px;
+	color:rgb(83, 40, 2);
+	font-weight: bold;
+	margin-bottom: 4px;
+	margin-top: 5px;
+}
+.edu_clg{
+	font-size: 12px;
+	color:rgb(83, 40, 2);
+	margin-left: 2px;
+}
+.cgpa{
+	font-size: 10px;
+	font-weight: bold;
+	color:rgb(83, 40, 2);
+	margin-left: 20px;
+	margin-top:15px;
+
+}
+.job_details{
+	font-size: 10px;
+	line-height: 14px;
+	color:rgb(83, 40, 2);
+	margin-top: 8px;
+}
+.right_level_icon{
+  display: flex;
+}
+.level_icon{
+	margin-right: 20px;;
+	color:white;
+}
+.right_level{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color:white;
+	margin-bottom: 10px;
+	margin-top:-3px;
+
+}
+.skill_row{
+	display: flex;
+}
+.skill_col{
+	margin-left: 30px;
+}
+.ref_row{
+	display: flex;
+	margin-bottom: 10px;
+}
+.ref_col{
+	margin-right: 60px;
+}
+.ref_name{
+	font-size: 16px;
+	color:rgb(83, 40, 2);
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.ref_desig{
+	font-size: 14px;
+	color:rgb(83, 40, 2);
+    margin-bottom: 5px;
+}
+.ref_mail a{
+	text-decoration: none;
+	color:rgb(83, 40, 2);
+	font-size: 12px;
+}
+.ref_mail a:hover{
+	text-decoration: underline;
+	font-size: 16px;
+	
+}
